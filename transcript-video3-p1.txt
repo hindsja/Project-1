@@ -1,0 +1,90 @@
+00:00:01 Hello. This is uh video three for
+00:00:03 project one. We're going to be going
+00:00:04 over the tool. Um
+00:00:07 as stated before, my recommendation is
+00:00:09 going to be a watch defer. I would not
+00:00:12 initiate um a purchase in Nvidia
+00:00:17 position based on our present evidence.
+00:00:20 So going into this live um valuation
+00:00:23 tool, our base is a uh $66 value per
+00:00:27 diluted share. Uh I'm going to increase
+00:00:30 our data center growth uh five
+00:00:33 percentage points we'll do and we'll
+00:00:34 calculate that. Uh it's going to give us
+00:00:37 76
+00:00:39 uh dollars per our value. And that's
+00:00:42 just because we're going to have more
+00:00:43 revenue um flowing through our profit
+00:00:47 and reinvestment meaning that we're
+00:00:48 going to have uh it's going right into
+00:00:50 the free cash flow. So I will reset that
+00:00:54 and uh I'll demonstrate this uh broken
+00:00:56 cash reconsilation.
+00:00:58 It's going to fail balance sheet. Um
+00:01:01 balance sheet failed. So it the the fail
+00:01:05 passes our model. Um
+00:01:09 so we have our valuations. Um we have
+00:01:13 our income statement. We have our
+00:01:16 balance sheet.
+00:01:18 uh cash flow
+00:01:20 and then our inputs. So
+00:01:24 we're going to go into uh this here
+00:01:28 which is just our um report. So same
+00:01:31 same thing we just went over with
+00:01:33 valuations income you know but this also
+00:01:35 has our named cases. So on this we have
+00:01:39 our downside case, base case and upside
+00:01:41 case uh with our downside at $50 uh
+00:01:44 value a share uh base is 66 and our
+00:01:48 upside is $87 uh value per share. And
+00:01:52 these these changes are based on uh a
+
+
+00:01:56 change in uh demand, margins,
+00:01:59 reinvestment and the discount rate all
+00:02:01 changing together. So um this is just
+00:02:03 what the model had computed and we can
+00:02:07 adjust our WACCC and the terminal growth
+00:02:09 in our um tool. So this is just some uh
+00:02:14 benchmark numbers to reference.
+00:02:18 And um last we have our decision memo
+00:02:21 here. So this is going to be um
+00:02:27 uh really the recap. We have our cases
+00:02:30 here. uh big thing I can point out is uh
+00:02:36 right here our terminal value is uh yeah
+00:02:42 so our terminal value is 60.5%
+00:02:46 of our enterprise value. So those, you
+00:02:50 know, long-term assumptions are really
+00:02:52 going to matter. Um,
+00:02:57 especially when, you know, the
+00:02:59 comparison price we're using is $218
+00:03:02 from September 10th of 2026 is close.
+00:03:05 Uh, that's not today's price. Um,
+00:03:08 jumping jumping around, uh, we have AMD
+00:03:12 and Broadcom as our peers. their price
+00:03:15 to earnings comparison puts us at uh a
+00:03:18 really wide range. So the big thing from
+00:03:20 that is because they all um the earnings
+00:03:23 differ so much between the companies, we
+00:03:25 are not going to average that in with
+00:03:26 the um discount um or the DCF.
+00:03:31 Um
+00:03:34 I would really
+00:03:37 just
+00:03:39 um only reconsider Yeah, right here. I'd
+00:03:43 only consider updating um buying after
+00:03:47 an updated date consistent um like
+00:03:50 information uh with like a supported
+00:03:52 downside valuation to justify the
+00:03:54 observed price. Um we can monitor the
+00:03:57 data center growth, margins, inventory,
+00:03:59 capital spending. Um but uh persistent
+00:04:02 weakness would move the decision towards
+00:04:05 a do not initiate. Um my committee ask
+00:04:10 is just uh to keep Nvidia on watch and
+00:04:14 make no initial purchase based on this
+00:04:16 analysis. Uh yes, right here. Retain
+00:04:19 Nvidia on watch um make no initial
+00:04:23 purchase on this analysis alone given
+00:04:26 all of this information. Still watch it.
+00:04:29 Thank you.

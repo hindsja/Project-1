@@ -1,0 +1,92 @@
+00:00:00 This video is video two uh for project
+00:00:03 one. Uh this video is just going to go
+00:00:06 over the code and how um like the model
+00:00:11 works and how I checked it. So first
+00:00:14 off, we're going to have our readme file
+00:00:16 and this is just going to give the
+00:00:19 commands on how to run it. So anybody
+00:00:21 can look at the readme and having the
+00:00:24 codes they can run um run the codes and
+00:00:30 use the model. So um going into our
+00:00:36 model for this this code here um it's
+00:00:40 nice code
+00:00:42 um
+00:00:44 just over 200 lines. Um what I want to
+00:00:49 go over though in this is our
+00:00:52 uh statements. So in this statements
+00:00:55 here uh this is really
+00:00:59 um
+00:01:00 the the bulk of the code is um what it's
+00:01:04 doing is it's forecasting
+00:01:08 um the data center revenue for Nvidia
+00:01:12 separate from all the other revenues.
+00:01:14 So, we're going to do that because our
+00:01:17 revenue is then going to drive our, uh,
+00:01:20 profit, uh, our working capital, um, and
+00:01:24 our cash. So, um, it's just going to do
+00:01:27 a bunch of calculations, um, that, you
+00:01:30 know, produce like a five-year,
+00:01:32 uh, income statements, balance sheets,
+00:01:35 and and cash flows. So, um, and this,
+00:01:40 scroll a little down so you can see the
+00:01:41 rest of it. Um
+00:01:45 uh it's it's going to have our free cash
+00:01:47 flow equal
+00:01:49 uh the after tax operating income uh
+00:01:53 plus our depreciation
+00:01:56 and minus our um
+00:02:01 our uh capital spending and and and
+00:02:03 increases in working capital. So um next
+00:02:08 part of the code is uh the DCF. So DCF
+
+
+00:02:13 in the in those five cash flows um
+00:02:16 they're discounted using our uh
+00:02:21 um WACC.
+00:02:23 Um the model is also going to discount
+00:02:27 uh a terminal value. So yeah.
+00:02:34 Yep. Yeah.
+00:02:36 um it's going to add some extra um cash
+00:02:39 and securities, subtract the debt, and
+00:02:42 that's all going to get us our um value
+00:02:44 per share. So, uh I'm going to go into
+00:02:47 PowerShell and I'm going to run
+00:02:51 this code here and this code is our our
+00:02:55 check. So
+00:02:58 running this test you know [snorts]
+00:03:01 command now it's it's
+00:03:04 um it includes a bunch of um known
+00:03:08 answer calculations the uh input checks
+00:03:12 the balance sheets uh it just checks all
+00:03:15 of those um and it it really the purpose
+00:03:20 of this is is checking that all the
+00:03:22 inputs are going to move in the um
+00:03:25 expected direction that they're supposed
+00:03:27 to move when like the discount rate or
+00:03:30 like growth or whatever changes. And so,
+00:03:34 um,
+00:03:36 like this this test here, uh, I can
+00:03:38 highlight this one. Uh, this tampered
+00:03:41 cash refused. Uh, it deliberately adds
+00:03:45 100 to like a copied cash balance.
+00:03:50 Um, and it's good because, uh, well, it
+00:03:54 passed. That's why it says okay is um
+00:03:59 uh because the model just refused to um
+00:04:03 like do the inconsistent statement
+00:04:05 because the 100 didn't add up. And um
+00:04:08 last thing with our
+00:04:11 uh model is this cold run log. Um it's
+00:04:17 just going to show the the test and the
+00:04:19 report um
+00:04:22 generation really passed
+00:04:26 um in a Python environment brand new. Um
+00:04:32 so right there is the Python model it
+00:04:35 passed on. Okay. Is on all of these. It
+00:04:39 passed its 10 tests. Um
+00:04:43 yeah, so overall pass it really is just
+00:04:47 showing um this cold log is just
+00:04:51 demonstrating that the model can the
+00:04:55 model's math and and it can be
+00:04:57 reproduced um in in Python environments
+00:05:01 and um
+00:05:07 Yeah.

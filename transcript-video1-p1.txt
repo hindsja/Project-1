@@ -1,0 +1,59 @@
+00:00:01 Hello, I'm John and today we're going to
+00:00:03 be going over um my decision for uh
+00:00:08 edition A and edition B. Uh so this this
+00:00:14 project essentially asks us the question
+00:00:16 if we should fund a position in Nvidia
+00:00:19 or not. Um Nvidia was my chosen company
+00:00:21 and addition A I had come up with the
+00:00:24 status of uh watch defer. So that was my
+00:00:27 um addition a status. Um I came up with
+00:00:31 this because all of the financials they
+00:00:33 they look strong. Um it looked like they
+00:00:36 could be profitable in the future, but
+00:00:39 that alone had didn't justify um the
+00:00:43 price now. It didn't make it look
+00:00:44 attractive enough. Um going into
+00:00:48 addition B, um my decision has remained
+00:00:53 at a um watch defer just because the
+00:00:57 validation really depends heavily on you
+00:01:00 know growth and its long-term
+00:01:02 assumptions
+00:01:04 um and some validation uh valuation
+00:01:08 evidence could still do some updating.
+00:01:11 Um
+00:01:13 really we did um with uh addition B we
+00:01:17 this was after we did all the 5year
+00:01:19 scenarios the DCF the so on and so forth
+00:01:24 the models and the models bring us to
+00:01:27 this you know range here of 50 to87
+00:01:30 and a $66 base um
+00:01:35 which still hasn't justified a um a
+00:01:41 purchase of a price yet. Now, looking at
+00:01:44 um
+00:01:46 uh one of our other documents for the um
+00:01:49 validation and AI use record, we had um
+00:01:54 uh one of the uh corrections that were
+00:01:57 made is that the AI had generated um
+00:02:01 some forecasting um and it deducted
+00:02:04 depreciation. Now using this formula
+00:02:07 here uh we calculated it and checked it
+00:02:11 against Nvidia's filing
+00:02:14 um and we revised the model to be able
+00:02:18 to make that correction. Um
+00:02:22 lastly, going back here, um
+00:02:27 the research the all the research made
+00:02:29 the decision more um specific, but it
+
+00:02:32 didn't justify buying the um shares.
+00:02:34 Now, yeah, I would reconsider um after
+00:02:39 like updating all the financial and and
+00:02:41 price evidences
+00:02:43 um to see what the expected return would
+00:02:46 be. But um yeah, right here it says the
+00:02:49 recommendation did not change. The
+00:02:51 evidence, model, integration,
+00:02:52 diagnostics, and conditions became more
+00:02:54 explicit. But that didn't make the um
+00:02:58 that didn't justify the price. It just
+00:02:59 gave us more clarity on to um what
+00:03:03 exactly we are looking at.
