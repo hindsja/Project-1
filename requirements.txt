@@ -1,0 +1,2 @@
+# Project 1 runner and tests use only the Python standard library.
+# Python 3.12 was used for verification. No pip packages are required.
