@@ -1,0 +1,53 @@
+Timestamp: 2026-10-15T15:37:29-04:00
+Python: 3.14.7
+Command: python mandate.py
+
+RESTORED BASELINE AND CANDIDATE D
+Reserve minimum: 3.0% of the portfolio
+
+Candidate A
+Weights sum to 100: 100.0 pass
+Long-only (lowest weight): 0.0 pass
+Reserve >= 3.0%: 14.0 pass
+Redeemable in 5 days >= 90.0%: 100.0 pass
+Largest single company <= 8.0%: 0.0 pass
+Calendar-year loss: requires CIO clarification
+passes every checkable rule
+
+Candidate B
+Weights sum to 100: 100.0 pass
+Long-only (lowest weight): 0.0 pass
+Reserve >= 3.0%: 1.0 FAIL
+Redeemable in 5 days >= 90.0%: 85.0 FAIL
+Largest single company <= 8.0%: 9.0 FAIL
+Calendar-year loss: requires CIO clarification
+fails 3 rule(s)
+
+Candidate C
+Weights sum to 100: 100.0 pass
+Long-only (lowest weight): 0.0 pass
+Reserve >= 3.0%: 2.0 FAIL
+Redeemable in 5 days >= 90.0%: 100.0 pass
+Largest single company <= 8.0%: 8.0 pass
+Calendar-year loss: requires CIO clarification
+fails 1 rule(s)
+
+Candidate D
+Weights sum to 100: 100.0 pass
+Long-only (lowest weight): 0.0 pass
+Reserve >= 3.0%: 100.0 pass
+Redeemable in 5 days >= 90.0%: 100.0 pass
+Largest single company <= 8.0%: 0.0 pass
+Calendar-year loss: requires CIO clarification
+passes every checkable rule
+
+TEMPORARY PROBE (A only; original file restored afterward)
+Weights sum to 100: 100.0 pass
+Long-only (lowest weight): -2.0 FAIL
+Reserve >= 3.0%: 10.0 pass
+Redeemable in 5 days >= 90.0%: 100.0 pass
+Largest single company <= 8.0%: 0.0 pass
+Calendar-year loss: requires CIO clarification
+fails 1 rule(s)
+
+Verification: all reference values and flags matched; A probe failed only long-only; restored output matched baseline; changed payout and liquidity inputs recalculated; nonfinite input rejected.

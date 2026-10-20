@@ -1,0 +1,14 @@
+{
+  "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+  "context": "c-1; FY2026 consolidated income statement",
+  "units": "USD millions",
+  "facts": {
+    "GrossProfit": 153463.0,
+    "ResearchAndDevelopmentExpense": 18497.0,
+    "SellingGeneralAndAdministrativeExpense": 4579.0,
+    "OperatingIncomeLoss": 130387.0
+  },
+  "calculated_operating_income": 130387.0,
+  "passed": true,
+  "source_sha256": "6289b57a75407d5eb41993aecb604918356f66f6f3254194e11408db054ad3d9"
+}

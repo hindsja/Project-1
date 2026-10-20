@@ -1,0 +1,46 @@
+Clean-environment run: 20261019T230053199922Z
+Fresh directory and venv; system site packages disabled; no pip dependencies.
+Runner: cold_run_project1.py
+
+Source SHA-256:
+project1.py 817104d74ce21624141d4e53085aabdff442e33ad3cc8de912cb9b61afe7bb50
+project1_model.py 8f03ce3bdbace935b7cf6757aa09dcbd080757661d0f9583e274f37abfdce0de
+test_project1.py 15755471494061f5501babdf77903da8624549af4109c86d7891b55658c457ca
+lab11_nvda.py c90abcf007c0a0544abcc527d391b16ab7a65aa27b54053741873568811487a1
+nvda-20260125.html 6289b57a75407d5eb41993aecb604918356f66f6f3254194e11408db054ad3d9
+requirements.txt 5ecf2025b8733cf85827471d4238c177445282b5da85cea7b4d0cc771917d54a
+README.md 6713e84d28d44623973b2766c5d4dda75830f007a26e73b330045d3f40d083e0
+
+COMMAND: python --version
+EXIT: 0
+Python 3.12.13
+
+
+
+COMMAND: python -m unittest test_project1 -v
+EXIT: 0
+
+test_bad_values_refused (test_project1.ModelChecks.test_bad_values_refused) ... ok
+test_driver_panel_and_failure_recovery (test_project1.ModelChecks.test_driver_panel_and_failure_recovery) ... ok
+test_failed_financing_refused (test_project1.ModelChecks.test_failed_financing_refused) ... ok
+test_filing_inputs (test_project1.ModelChecks.test_filing_inputs) ... ok
+test_monotonicity (test_project1.ModelChecks.test_monotonicity) ... ok
+test_restore_base_and_reverse (test_project1.ModelChecks.test_restore_base_and_reverse) ... ok
+test_statement_articulation_and_bridge (test_project1.ModelChecks.test_statement_articulation_and_bridge) ... ok
+test_synthetic_answer (test_project1.ModelChecks.test_synthetic_answer) ... ok
+test_tampered_cash_refused (test_project1.ModelChecks.test_tampered_cash_refused) ... ok
+test_training_case (test_project1.ModelChecks.test_training_case) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.186s
+
+OK
+
+
+COMMAND: python project1.py
+EXIT: 0
+Saved outputs/project1-report.html, project1-results.json and project1-validation.json
+10 model/source checks passed.
+
+
+OVERALL: PASS

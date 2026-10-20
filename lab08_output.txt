@@ -1,0 +1,16 @@
+﻿Lab 08 - NVIDIA peer P/E comparison
+Prices: September 10, 2026 closes, USD/common share.
+EPS: latest annual reported GAAP total diluted EPS public by that date.
+Target inputs: {'ticker': 'NVDA', 'price': 218.36, 'eps': 4.9}
+Target observed P/E: 44.563265x (not in peer median)
+Peer inputs: {'ticker': 'AMD', 'price': 503.6, 'eps': 2.65}
+AMD P/E: 190.037736x
+Peer inputs: {'ticker': 'AVGO', 'price': 360.83, 'eps': 4.77}
+AVGO P/E: 75.645702x
+Peer median P/E: 132.841719x
+NVIDIA implied range: $370.66-$931.18/share
+NVIDIA peer-median estimate: $650.92/share
+Leave-one-peer-out (change from full-peer median estimate)
+Remove AMD: $370.66; change -280.26 USD/share; reference; no range.
+Remove AVGO: $931.18; change +280.26 USD/share; reference; no range.
+P/E implies a common-equity share price directly; no net-debt bridge.

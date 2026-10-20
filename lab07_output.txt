@@ -1,0 +1,24 @@
+﻿Lab 07 - Asbury comparable-company P/E
+USD/share; December 31, 2024 prices; FY2024 total GAAP diluted EPS.
+Retrospective training case: annual earnings were reported afterward.
+Target inputs: {'ticker': 'ABG', 'price': 243.03, 'eps': 21.5}
+Target observed P/E: 11.303721x (excluded from peer median)
+Peer inputs: {'ticker': 'AN', 'price': 169.84, 'eps': 16.92}
+Peer inputs: {'ticker': 'GPI', 'price': 421.48, 'eps': 36.81}
+
+Peer multiples
+AN P/E: 10.037825x
+GPI P/E: 11.450149x
+
+Peer median P/E: 10.743987x
+Minimum-multiple implied price: $215.81
+Median-multiple implied price: $231.00
+Maximum-multiple implied price: $246.18
+Peer-implied range: $215.81-$246.18
+
+Leave-one-peer-out (change from full-peer median estimate)
+Remove AN: $246.18; change +15.18 USD/share; reference estimate; no range.
+Remove GPI: $215.81; change -15.18 USD/share; reference estimate; no range.
+
+P/E implies an equity price directly; no cash/debt bridge.
+

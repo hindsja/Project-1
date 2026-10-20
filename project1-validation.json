@@ -1,0 +1,85 @@
+{
+  "executed_utc": "2026-10-19T23:00:50.018535+00:00",
+  "tests_run": 10,
+  "all_passed": true,
+  "test_log": "test_bad_values_refused (test_project1.ModelChecks.test_bad_values_refused) ... ok\ntest_driver_panel_and_failure_recovery (test_project1.ModelChecks.test_driver_panel_and_failure_recovery) ... ok\ntest_failed_financing_refused (test_project1.ModelChecks.test_failed_financing_refused) ... ok\ntest_filing_inputs (test_project1.ModelChecks.test_filing_inputs) ... ok\ntest_monotonicity (test_project1.ModelChecks.test_monotonicity) ... ok\ntest_restore_base_and_reverse (test_project1.ModelChecks.test_restore_base_and_reverse) ... ok\ntest_statement_articulation_and_bridge (test_project1.ModelChecks.test_statement_articulation_and_bridge) ... ok\ntest_synthetic_answer (test_project1.ModelChecks.test_synthetic_answer) ... ok\ntest_tampered_cash_refused (test_project1.ModelChecks.test_tampered_cash_refused) ... ok\ntest_training_case (test_project1.ModelChecks.test_training_case) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.185s\n\nOK\n",
+  "filing_check": {
+    "source": "NVIDIA FY2026 Form 10-K; local saved filing",
+    "sha256": "6289b57a75407d5eb41993aecb604918356f66f6f3254194e11408db054ad3d9",
+    "method": "Independent extraction of consolidated inline-XBRL facts",
+    "decoding": "cp1252 (saved filing encoding)",
+    "checks": [
+      {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "expected_millions": 10605,
+        "filing_values_millions": [
+          10605.0
+        ],
+        "passed": true
+      },
+      {
+        "concept": "InventoryNet",
+        "expected_millions": 21403,
+        "filing_values_millions": [
+          21403.0
+        ],
+        "passed": true
+      },
+      {
+        "concept": "PropertyPlantAndEquipmentNet",
+        "expected_millions": 10383,
+        "filing_values_millions": [
+          10383.0
+        ],
+        "passed": true
+      },
+      {
+        "concept": "Assets",
+        "expected_millions": 206803,
+        "filing_values_millions": [
+          206803.0
+        ],
+        "passed": true
+      },
+      {
+        "concept": "Liabilities",
+        "expected_millions": 49510,
+        "filing_values_millions": [
+          49510.0
+        ],
+        "passed": true
+      },
+      {
+        "concept": "StockholdersEquity",
+        "expected_millions": 157293,
+        "filing_values_millions": [
+          24.0,
+          178.0,
+          10118.0,
+          146973.0,
+          157293.0
+        ],
+        "passed": true
+      },
+      {
+        "concept": "WeightedAverageNumberOfDilutedSharesOutstanding",
+        "expected_millions": 24514,
+        "filing_values_millions": [
+          24514.0
+        ],
+        "passed": true
+      }
+    ]
+  },
+  "limitations": [
+    "Working historical model, not a completed current investment recommendation.",
+    "Market reference: September 10, 2026 close from Lab 08; not reverified in this revision.",
+    "Opening statements: FY2026. Later FY2027 information is not incorporated.",
+    "Five full annual end-of-period cash flows; no valuation-date stub-period adjustment. Timing must be aligned before relying on the range.",
+    "WACC and operating ranges are inherited judgments; the market inputs supporting WACC require date-consistent verification.",
+    "Diluted weighted-average shares are a fixed proxy, not a complete valuation-date dilution schedule.",
+    "Working capital, stock compensation, intangible amortization, leases and other nonoperating claims remain simplified.",
+    "Peer enterprise-value multiple and final normalization/assumption evidence remain incomplete."
+  ],
+  "known_answer_reference": "dcf_old.py frozen Lab 05 inputs and lab06_nvda.md training grid; published upstream reference still needs confirmation"
+}
